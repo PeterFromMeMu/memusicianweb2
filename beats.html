@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/choices.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/beats-style.css">
+    <link rel="shortcut icon" href="img/vynil.png" type="image/x-icon">
+    <title>MeMusician | Beats</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- <div class="logo-block">
+                <h2 class="logo-block__text">MeMusician</h2>
+            </div> -->
+            <a href="/index.html">
+                <img class="header-logo" src="img/logo-vynil.png" alt="">
+            </a>
+            <div class="cb-cblock">
+                <div class="header-cart__block-other">
+                    <i id="zero-cart">0</i>
+                    <img class="cart-block__image" src="img/cart.svg" alt="">
+                </div>
+                <svg id="hamb" class="header-burger__icon" xmlns="http://www.w3.org/2000/svg" width="17px" height="17px" viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_429_11066)">
+                    <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="rgba(255, 255, 255, .5)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clippath id="clip0_429_11066">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"/>
+                    </clippath>
+                    </defs>
+                </svg>
+            </div>
+            <div id="popup" class="header-right">
+                <a href="#" class="header-right__favourite">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="26" height="17" viewBox="0 0 24 24">
+                        <path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"/>
+                    </svg>
+                    <p class="header-favourite__text">My Favourite</p>
+                </a>
+                <svg class="header-right__add" fill="rgba(255, 255, 255, 0.7)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 45.402 45.402" style="enable-background:new 0 0 45.402 45.402;" xml:space="preserve">
+                    <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27c0,1.142,0.453,2.176,1.201,2.922c0.748,0.748,1.777,1.211,2.919,1.211c2.282,0,4.129-1.851,4.129-4.133V26.857h14.435c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z"/>
+                </svg>
+                <div class="header-right__addblock">
+                    <p class="addblock__heading">Post:</p>
+                    <ul class="addblock__list">
+                        <li class="addblock__item"><a href="/upload-beat.html">Beat</a></li>
+                        <li class="addblock__item"><a href="#">Studio</a></li>
+                        <li class="addblock__item"><a href="#">Colab</a></li>
+                        <li class="addblock__item"><a href="#">Mix &amp; Mast</a></li>
+                    </ul>
+                </div>
+                <div class="header-right__addblock-other">
+                    <p class="addblock__heading">Post:</p>
+                    <ul class="addblock__list">
+                        <li class="addblock__item"><a href="/upload-beat.html">Beat</a></li>
+                        <li class="addblock__item"><a href="#">Studio</a></li>
+                        <li class="addblock__item"><a href="#">Colab</a></li>
+                        <li class="addblock__item"><a href="#">Mix &amp; Mast</a></li>
+                    </ul>
+                </div>
+                <div class="header-cart__block">
+                    <i id="zero-cart">0</i>
+                    <img class="cart-block__image" src="img/cart.svg" alt="">
+                </div>
+                <div class="main-user__block">
+                    <a href=""><div class="main-user__logo"></div></a>
+                    <div class="main-user__info">
+                        <a href="" class="main-user__name">Prototype01</a>
+                        <a href="" class="main-user__link" disabled>Log out</a>
+                    </div>
+                </div>
+                <svg id="close" class="burger-cancel" xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 32 32">
+
+                    <defs>
+                    
+                    <style>.cls-1{fill:none;stroke:rgba(255, 255, 255, .5);stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style>
+                    
+                    </defs>
+                    
+                    <title/>
+                    
+                    <g id="cross">
+                    
+                    <line class="cls-1" x1="7" x2="25" y1="7" y2="25"/>
+                    
+                    <line class="cls-1" x1="7" x2="25" y1="25" y2="7"/>
+                    
+                    </g>
+                    
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-beats">
+        <div class="container">
+            <div class="main-beats__head">
+                <div class="beats-head__left">
+                    <select class="beats-head__select-genre js-choice" name="" id="choice1">
+                        <option value="" hidden>Genre</option>
+                        <option value="">Hip hop</option>
+                        <option value="">Rap</option>
+                        <option value="">Lofi</option>
+                        <option value="">Trap</option>
+                        <option value="">Jazz</option>
+                        <option value="">Underground</option>
+                        <option value="">Rock</option>
+                        <option value="">Club</option>
+                    </select>
+                    <select class="beats-head__select-vibe js-choice" name="" id="choice2">
+                        <option value="" hidden>Vibe</option>
+                        <option value="">Crazy</option>
+                        <option value="">Angry</option>
+                        <option value="">Soulful</option>
+                        <option value="">Happy</option>
+                        <option value="">Intense</option>
+                        <option value="">Anxious</option>
+                        <option value="">Grateful</option>
+                        <option value="">Inspiring</option>
+                        <option value="">Calm</option>
+                    </select>
+                    <select class="beats-head__select-instruments js-choice" name="" id="choice3">
+                        <option value="" hidden>Instruments</option>
+                        <option value="">Piano</option>
+                        <option value="">Violin</option>
+                        <option value="">Drums</option>
+                        <option value="">Electric guitar</option>
+                        <option value="">Cello</option>
+                        <option value="">Flute</option>
+                        <option value="">Saxophone</option>
+                        <option value="">Bass guitar</option>
+                        <option value="">Organ</option>
+                    </select>
+                    <div class="beats-head__block4">
+                        <p class="beats-head__price price-nav__btn" data-tab="#tab__first">Price</p>
+                        <div class="beats-price__block price__menu" id="tab__first">
+                            <div class="beats-price__top">
+                                <input type="text">
+                                <p>to</p>
+                                <input type="text">
+                            </div>
+                            <div class="beats-price__bottom">
+                                <div class="beats-span__first beats-radio__block">
+                                    <label class="beats-radio__label" for="beat1">Cheap first</label>
+                                    <input class="beats-radio__input" name="choose" type="radio" id="beat1">
+                                </div>
+                                <div class="beats-span__second beats-radio__block">
+                                    <label class="beats-radio__label" for="beat2">Expensive first</label>
+                                    <input class="beats-radio__input" name="choose" type="radio" id="beat2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <select class="beats-head__select-key js-choice" name="" id="choice4">
+                        <option value="" hidden>Key</option>
+                        <option value="">None</option>
+                        <option value="">Em</option>
+                        <option value="">Cm</option>
+                        <option value="">Dm</option>
+                        <option value="">Fm</option>
+                        <option value="">Am</option>
+                        <option value="">Gm</option>
+                        <option value="">Bm</option>
+                    </select>
+                    <div class="beats-head__block6">
+                        <p class="beats-head__bpm bpm-nav__btn" data-tab="#tab__second">BPM</p>
+                        <div class="beats-bpm__block bpm__menu" id="tab__second">
+                            <div class="beats-bpm__top">
+                                <input type="text">
+                                <p>to</p>
+                                <input type="text">
+                            </div>
+                            <div class="beats-bpm__bottom">
+                                <div class="beats-span__first beats-radio__block">
+                                    <label class="beats-radio__label" for="bpm1">Small</label>
+                                    <input class="beats-radio__input" name="choose" type="radio" id="bpm1">
+                                </div>
+                                <div class="beats-span__second beats-radio__block">
+                                    <label class="beats-radio__label" for="bpm2">Medium</label>
+                                    <input class="beats-radio__input" name="choose" type="radio" id="bpm2">
+                                </div>
+                                <div class="beats-span__third beats-radio__block">
+                                    <label class="beats-radio__label" for="bpm3">Large</label>
+                                    <input class="beats-radio__input" name="choose" type="radio" id="bpm3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="beats-head__right">
+                    <svg class="head-right__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="21" viewbox="0 0 23 22" fill="none">
+                        <rect width="6.8678" height="1.71695" transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z" fill="white" />
+                    </svg>
+                    <input type="search" placeholder="Search by tag">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers">
+        <div class="container">
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvNzM0MzY3L2ltYWdlLzdVTVAzOTBlUHlpei90dW1ibHI4YzNmMWU3MjJjNGIxYzg3OWJkN2E3ZDg5NTViOTM5MTI5YWExOTE4MTI4MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=1649687433513');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTAzMDkwNy9pbWFnZS9TZVU5V2IxV3pXZXUvcG9pc29uLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=19289');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMzQ0ODk0NC9pbWFnZS9taFh3eVpscXV0YU8vcGxheWJvaWNhcnRpdHlwZWJlYXQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=1643924995992');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvNTU2MzcyL2ltYWdlLzNYRHUzS0xUY016UC9ibGFtZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvNzM0MzY3L2ltYWdlL2dyaXliR09EUVgzWC9mc2tnd3N6eG9hcWVxbHYuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=1653053911687');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMzUyMzUyNC9pbWFnZS9QNXlpeGhpa2JZazgvZHJha2V0eXBlYmVhdGdvaW5naGFyZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=19208');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMjI1ODkxL2ltYWdlL0Y1SlNOc1haeW1veC9pNHVhcjQ3bXEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=1638129658584');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTI0OTI4Mi9pbWFnZS9BclBTZ29TMTZsbzEvMjk4MjMwNDk1ODA2MTgxNDcwMzc3ODUzMzgyNDQwMDU2MTA0NDY5ODc5Nm4uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=19216');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTEyNDc3MC9pbWFnZS9WZVVCbkZLQnltYVovdG9sZG1lanBlZy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=19271');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvNDEwMjUxNi9pbWFnZS9rZTNPRmpTa3JYYUMvZ3VubmF0eXBlYmVhdHJvZGR5cmljY2h0eXBlYmVhdC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=19204');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTEyNDc3MC9pbWFnZS9YUjYwR0Z3M1lMemEvbW9yYWwyanBlZy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=19275');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTEyNDc3MC9pbWFnZS9tTnBwM3pQY1NPa3EvdW5kZXJjb3ZlcmpwZWcuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTc3NzU4My9pbWFnZS90Y2pnRVlRUkt5eWIvZ3VubmExLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=19253');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMjg2NjQ3Ni9pbWFnZS9LVU0zc0FHeW5MZXYvMzAyMGRiOGIzZTNkNGQ4YWIwYTA5NmI5MWQxOWI1OGFqcGVnLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=1649254011060');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTI3MDk3OS9pbWFnZS8xNTg5OTY1MjEzL21lbmhpcGhvcGljZWRibGluZ3doaXRlZ29sZHB0cmFwcGVyc2xhYmRpYW1vbmR1cmJhbm1ldGFsd2F0Y2hqcGd1ZjE1ODk5NjUyMDkxOThqcGd1ZjE1ODk5NjUyMTE0ODUuanBnIiwidGltZXN0YW1wIjpudWxsLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=1636136390432');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTk5MDQ1Mi9pbWFnZS9QTGZ0RzI2eVh6QTgvODcyNDkwNjhkMDVhYjI4MzkzNzRjMGZkYWU0MmRhNTAxMDAweDEwMDB4MS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=1650016316958');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMjU1OTAzL2ltYWdlL3JxRXlxNWVZNngxWi9rYW55ZWJlYXRzdGFycy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=1637870156609');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTQ5MjY5NS9pbWFnZS80NW4yR0FRMkdyZlgvZmVtYWxlYXJ0aXN0bXVzaWNhbGJ1bWNvdmVyLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=1653065965759');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvNjYyNjE0L2ltYWdlLzlScEZJYUJIZFB5Zi9jb3B5b2ZiZWF0YnllamZ5YXlvLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=1637188278471');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvNjI0Mzc2L2ltYWdlLzlUa09TYnF4aGtzUi9pZGRyc25ieHkucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=19301');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTEyNDc3MC9pbWFnZS85a09IcXFzOHF5N2MvZmVhcmxlc3NqcGVnLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=1654436145501');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvNTU2MzcyL2ltYWdlL3h2NmNoT2RjdjJqWC9ibHVycnkucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=19251');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTAzMDkwNy9pbWFnZS8xbFdaUzlnV0NVZmMvY29zdGFyaWNhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=1640542286435');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTAzMDkwNy9pbWFnZS9nVXNVZ0I5NjdrTGQvdnNkbXN2ZGYuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=19263');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="beatmakers-item">
+                    <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTM1NTAwMS9pbWFnZS9Ua3Boc2J3QXN6Y0gvbGVtb25mcmVlc3R5bGVpaS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=1654697572454');" class="beatmakers-item__img"></div>
+                    <div class="beatmakers-item__describe">
+                        <p class="beatmakers-item__style">Beat Genre</p>
+                        <h3 class="beatmakers-item__title">Beat Title</h3>
+                        <div class="beat-more__block">
+                            <a href="#" class="beatmakers-item__nickname">nickname</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="more">
+        <div class="container">
+            <a href="" class="more__link">Load more</a>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <img class="footer-logo" src="img/logo-vynil-text.png" alt="">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="#" class="footer-item__link">About Us</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#" class="footer-item__link">Contact Us</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#" class="footer-item__link">Cookie Policy</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#" class="footer-item__link">Privacy Policy</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#" class="footer-item__link">Copyright Complaint</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/choices.min.js"></script>
+    <script src="js/select.js"></script>
+    <script src="js/beats-price.js"></script>
+    <script src="js/beats-bpm.js"></script>
+    <script src="js/burger.js"></script>
+</body>
+</html>

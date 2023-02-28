@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="/css/logged-style.css">
+    <link rel="shortcut icon" href="/img/vynil.png" type="image/x-icon">
+    <title>MeMusician | Develop Yourself Musically</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- <div class="logo-block">
+                <h2 class="logo-block__text">MeMusician</h2>
+            </div> -->
+            <a class="header-logo__link" href="/index.html">
+                <img class="header-logo" src="/img/logo-vynil.png" alt="">
+            </a>
+            <!-- <div class="header-offer">
+                <ul class="header-offer__list">
+                    <li class="header-offer__item">
+                        <a href="" class="header-offer__string">Beats</a>
+                    </li>
+                    <li class="header-offer__item">
+                        <a href="" class="header-offer__string">Mastering</a>
+                    </li>
+                    <li class="header-offer__item">
+                        <a href="" class="header-offer__string">Studios</a>
+                    </li>
+                    <li class="header-offer__item">
+                        <a href="" class="header-offer__string">Make A Feat</a>
+                    </li>
+                </ul>
+            </div> -->
+            <div class="header-right">
+                <a href="/webs/construction.html" class="header-right__favourite">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="26" height="17" viewBox="0 0 24 24">
+                        <path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"/>
+                    </svg>
+                </a>   
+                <svg class="header-right__add" fill="rgba(255, 255, 255, 0.7)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 45.402 45.402" style="enable-background:new 0 0 45.402 45.402;" xml:space="preserve">
+                    <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27c0,1.142,0.453,2.176,1.201,2.922c0.748,0.748,1.777,1.211,2.919,1.211c2.282,0,4.129-1.851,4.129-4.133V26.857h14.435c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z"/>
+                </svg>
+                <div class="header-right__addblock">
+                    <p class="addblock__heading">Post:</p>
+                    <ul class="addblock__list">
+                        <li class="addblock__item"><a href="/webs/upload-beat.html">Beat</a></li>
+                        <li class="addblock__item"><a href="/webs/construction.html">Studio</a></li>
+                        <li class="addblock__item"><a href="/webs/construction.html">Colab</a></li>
+                        <li class="addblock__item"><a href="/webs/construction.html">Mix &amp; Mast</a></li>
+                    </ul>
+                </div>
+                <div class="main-user__block">
+                    <a href="/webs/profile.html"><div class="main-user__logo"></div></a>
+                    <div class="main-user__info">
+                        <a href="/webs/profile.html" class="main-user__name">Nickname</a>
+                        <a href="/index.html" class="main-user__link">Log out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-swiper test">
+        <div class="container">
+            <div class="swiper-first">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide tabs__item active slide-1" id="tab__one">
+                        <h2 class="section-swiper__heading">Sell Beats</h2>
+                        <p class="section-swiper__describe">You are a talented beatmaker? Share your creation with other musicians.</p>
+                        <a href="/webs/beats.html" class="section-swiper__button">See more</a>
+                    </div>
+                    <div class="swiper-slide tabs__item slide-2" id="tab__second">
+                        <h2 class="section-swiper__heading">Find A Studio</h2>
+                        <p class="section-swiper__describe">Find a place in which you can create a musical masterpiece.</p>
+                        <a href="/webs/construction.html" class="section-swiper__button">See more</a>
+                    </div>
+                    <div class="swiper-slide tabs__item slide-3" id="tab__third">
+                        <h2 class="section-swiper__heading">Make A Feat</h2>
+                        <p class="section-swiper__describe">Would you like to record a track with another musical artist?</p>
+                        <a href="/webs/construction.html" class="section-swiper__button">See more</a>
+                    </div>
+                    <div class="swiper-slide tabs__item slide-4" id="tab__fourth">
+                        <h2 class="section-swiper__heading">Mixing And Mastering</h2>
+                        <p class="section-swiper__describe">Find a person who will help you create a whole from the pieces.</p>
+                        <a href="/webs/construction.html" class="section-swiper__button">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-second">
+                <ul class="swiper-second__list">
+                    <li class="swiper-second__item tabs__nav-btn active" data-tab="#tab__one">
+                        <p class="swiper-second__link">Beats</p>
+                    </li>
+                    <li class="swiper-second__item tabs__nav-btn" data-tab="#tab__second">
+                        <p class="swiper-second__link">Studios</p>
+                    </li>
+                    <li class="swiper-second__item tabs__nav-btn" data-tab="#tab__third">
+                        <p class="swiper-second__link">Make A Feat</p>
+                    </li>
+                    <li class="swiper-second__item tabs__nav-btn" data-tab="#tab__fourth">
+                        <p class="swiper-second__link">Mixing</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="beatmakers">
+        <div class="container">
+            <div class="hb-block">
+                <h2 class="beatmakers-heading">Recently Uploaded Beats</h2>
+                <div class="beatmakers-buttons">
+                    <button class="beat-btn__prev"></button>
+                    <button class="beat-btn__next"></button>
+                </div>
+            </div>
+            <div class="beatmakers-slider__container">
+                <div class="beatmakers-list beatmakers-slider__track">
+                    <div class="beatmakers-item beatmakers-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMjAxMDIxL2ltYWdlL2JNeFozY0I5Y2ZVeS8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=19203');" class="beatmakers-item__img"></div>
+                        <div class="beatmakers-item__describe">
+                            <p class="beatmakers-item__style">Beat Genre</p>
+                            <h3 class="beatmakers-item__title">Beat Title</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="beatmakers-item__nickname">nickname</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beatmakers-item beatmakers-slider__item">
+                        <div style="background-image: url('https://main.v2.beatstars.com/fit-in/tracks/240x240/filters:format(.jpeg):quality(80):fill(000000)/users/prod/556372/image/1663030034/dark-lord.png');" class="beatmakers-item__img"></div>
+                        <div class="beatmakers-item__describe">
+                            <p class="beatmakers-item__style">Beat Genre</p>
+                            <h3 class="beatmakers-item__title">Beat Title</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="beatmakers-item__nickname">nickname</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beatmakers-item beatmakers-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMzIzMDQ0NS9pbWFnZS8yMjd3ZXVLb21keVMvaHlwLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=1636992635168');" class="beatmakers-item__img"></div>
+                        <div class="beatmakers-item__describe">
+                            <p class="beatmakers-item__style">Beat Genre</p>
+                            <h3 class="beatmakers-item__title">Beat Title</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="beatmakers-item__nickname">nickname</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beatmakers-item beatmakers-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTEzMDAwNC9pbWFnZS8yODZZV2R0ZTBqdjMvaG90aWcucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=1650355403897');" class="beatmakers-item__img"></div>
+                        <div class="beatmakers-item__describe">
+                            <p class="beatmakers-item__style">Beat Genre</p>
+                            <h3 class="beatmakers-item__title">Beat Title</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="beatmakers-item__nickname">nickname</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beatmakers-item beatmakers-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTI3MDIzOS9pbWFnZS91c05palZ5WU9lSmcvZGFld3lsZGVydGh1bWJuYWlsMjAucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=1651859469900');" class="beatmakers-item__img"></div>
+                        <div class="beatmakers-item__describe">
+                            <p class="beatmakers-item__style">Beat Genre</p>
+                            <h3 class="beatmakers-item__title">Beat Title</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="beatmakers-item__nickname">nickname</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beatmakers-item beatmakers-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMzA3MTQ5OS9pbWFnZS9JdzJ3NUZVUndSQm8vaTF0dHpmeXl6ZS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=19216');" class="beatmakers-item__img"></div>
+                        <div class="beatmakers-item__describe">
+                            <p class="beatmakers-item__style">Beat Genre</p>
+                            <h3 class="beatmakers-item__title">Beat Title</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="beatmakers-item__nickname">nickname</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beatmakers-item beatmakers-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvNjcwNTgvaW1hZ2UvOHZJQzlwa1BuMDlIL2NoYW5uZWxzNHByb2ZpbGVhd2ZhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=1637483107350');" class="beatmakers-item__img"></div>
+                        <div class="beatmakers-item__describe">
+                            <p class="beatmakers-item__style">Beat Genre</p>
+                            <h3 class="beatmakers-item__title">Beat Title</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="beatmakers-item__nickname">nickname</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beatmakers-item beatmakers-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTg3MDk1L2ltYWdlL01iN2VFSklMRXV4aC9pNDBkM3B6dTEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=19259');" class="beatmakers-item__img"></div>
+                        <div class="beatmakers-item__describe">
+                            <p class="beatmakers-item__style">Beat Genre</p>
+                            <h3 class="beatmakers-item__title">Beat Title</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="beatmakers-item__nickname">nickname</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mastering">
+        <div class="container">
+            <div class="hb-block">
+                <h2 class="mastering-heading">Mixing And Mastering Offers</h2>
+                <div class="mastering-buttons">
+                    <button class="mstr-btn__prev"></button>
+                    <button class="mstr-btn__next"></button>
+                </div>
+            </div>
+            <div class="mastering-slider__container">
+                <div class="mastering-list mastering-slider__track">
+                    <div class="mastering-item mastering-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMTM0NTA0NC9pbWFnZS8xNjM5ODk5MDM4L3NhbnMtdGl0cmUtbG9nby1wb3VyLWNoYS5wbmciLCJ0aW1lc3RhbXAiOm51bGwsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjE2MCwiaGVpZ2h0IjoxNjB9fX0=?t=1639899038584');" class="mastering-item__img"></div>
+                        <div class="mastering-item__describe">
+                            <div class="mastering-item__block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                            </div>
+                            <p class="mastering-item__price">24,99$</p>
+                            <h3 class="mastering-item__name">Nickname</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="mastering-item__more">More</a>
+                                <div class="more-bullet"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mastering-item mastering-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvNTExMjQ2L2ltYWdlLzE2NTcxMjUwMzIvc21va2luZy1ibGFjay1jZC1jb3Zlci00LS5wbmciLCJ0aW1lc3RhbXAiOm51bGwsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjE2MCwiaGVpZ2h0IjoxNjB9fX0=?t=1657125032872');" class="mastering-item__img"></div>
+                        <div class="mastering-item__describe">
+                            <div class="mastering-item__block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                            </div>
+                            <p class="mastering-item__price">24,99$</p>
+                            <h3 class="mastering-item__name">Nickname</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="mastering-item__more">More</a>
+                                <div class="more-bullet"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mastering-item mastering-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMzA3MTQ5OS9pbWFnZS8xNjQxOTM4Njk3L2FsbC1pLWRvLmpwZyIsInRpbWVzdGFtcCI6bnVsbCwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MTYwLCJoZWlnaHQiOjE2MH19fQ==?t=1641938697156');" class="mastering-item__img"></div>
+                        <div class="mastering-item__describe">
+                            <div class="mastering-item__block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                            </div>
+                            <p class="mastering-item__price">24,99$</p>
+                            <h3 class="mastering-item__name">Nickname</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="mastering-item__more">More</a>
+                                <div class="more-bullet"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mastering-item mastering-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJwcm9kLWJ0cy1hc3NldCIsImtleSI6InByb2QvYXNzZXQvTVI0MTAyOTQ2L0FUSU1SNDEwMjk0NmdoUTJOWWVNL2Nvbm5lY3Rpb25zLWJhY2tncm91bmQuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=1667232067546');" class="mastering-item__img"></div>
+                        <div class="mastering-item__describe">
+                            <div class="mastering-item__block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                            </div>
+                            <p class="mastering-item__price">24,99$</p>
+                            <h3 class="mastering-item__name">Nickname</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="mastering-item__more">More</a>
+                                <div class="more-bullet"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mastering-item mastering-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMzIzMDQ0NS9pbWFnZS8yWlBKa0U4c1c3QVUvc2NyZWFtLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=19293');" class="mastering-item__img"></div>
+                        <div class="mastering-item__describe">
+                            <div class="mastering-item__block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                            </div>
+                            <p class="mastering-item__price">24,99$</p>
+                            <h3 class="mastering-item__name">Nickname</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="mastering-item__more">More</a>
+                                <div class="more-bullet"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mastering-item mastering-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMzIzMDQ0NS9pbWFnZS85ZzYzbE1JQTlUZjQvbmFyY29paS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=19290');" class="mastering-item__img"></div>
+                        <div class="mastering-item__describe">
+                            <div class="mastering-item__block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                            </div>
+                            <p class="mastering-item__price">24,99$</p>
+                            <h3 class="mastering-item__name">Nickname</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="mastering-item__more">More</a>
+                                <div class="more-bullet"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mastering-item mastering-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMzIzMDQ0NS9pbWFnZS8zM1lRTEZSZjNTN3cvaGFyZGlpLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJmaWxsIiwid2lkdGgiOjI0MCwiaGVpZ2h0IjoyNDB9fX0=?t=19283');" class="mastering-item__img"></div>
+                        <div class="mastering-item__describe">
+                            <div class="mastering-item__block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                            </div>
+                            <p class="mastering-item__price">24,99$</p>
+                            <h3 class="mastering-item__name">Nickname</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="mastering-item__more">More</a>
+                                <div class="more-bullet"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mastering-item mastering-slider__item">
+                        <div style="background-image: url('https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvMzIzMDQ0NS9pbWFnZS80cUduc0RsclVndXUvdWx0cmEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImZpbGwiLCJ3aWR0aCI6MjQwLCJoZWlnaHQiOjI0MH19fQ==?t=19297');" class="mastering-item__img"></div>
+                        <div class="mastering-item__describe">
+                            <div class="mastering-item__block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewbox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                            </div>
+                            <p class="mastering-item__price">24,99$</p>
+                            <h3 class="mastering-item__name">Nickname</h3>
+                            <div class="beat-more__block">
+                                <a href="/webs/construction.html" class="mastering-item__more">More</a>
+                                <div class="more-bullet"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="studio">
+        <div class="container">
+            <h2 class="studio-heading">Studios Near You</h2>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <img class="footer-logo" src="/img/logo-vynil-text.png" alt="">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="/webs/construction.html" class="footer-item__link">About Us</a>
+                </li>
+                <li class="footer-item">
+                    <a href="/webs/construction.html" class="footer-item__link">Contact Us</a>
+                </li>
+                <li class="footer-item">
+                    <a href="/webs/construction.html" class="footer-item__link">Cookie Policy</a>
+                </li>
+                <li class="footer-item">
+                    <a href="/webs/construction.html" class="footer-item__link">Privacy Policy</a>
+                </li>
+                <li class="footer-item">
+                    <a href="/webs/construction.html" class="footer-item__link">Copyright Complaint</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/js/swiper-tabs.js"></script>
+    <script src="/js/slider-beats.js"></script>
+    <script src="/js/slider-mastering.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg8cUlOkdvk-S8udISabA9QFdalEJfz3M&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="/js/main-map.js"></script>
+</body>
+</html>

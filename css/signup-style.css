@@ -1,0 +1,26 @@
+.login-form__password {
+    margin-bottom: 0;
+}
+
+.login-button {
+    margin-left: 24%;
+}
+
+.login-form__email, .login-form__password,
+.login-form__name {
+    width: 300px;
+    padding: 13px;
+}
+
+.login-form__email {
+    margin-bottom: 18px;
+}
+
+.login-form__name {
+    margin-bottom: 18px;
+    border: 1px solid rgb(231, 231, 231, .8);
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Roboto Regular',serif;
+    border-radius: 3px;
+}

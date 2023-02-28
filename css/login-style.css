@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('/fonts/Roboto-Regular.woff');
+    src: local('Roboto Regular'), local('RobotoRegular'),
+      url('/fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('/fonts/Roboto-Bold.woff');
+  src: local('Roboto Bold'), local('RobotoBold'),
+    url('/fonts/Roboto-Bold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+    background-color: rgb(0, 0, 0, .95);
+}
+
+h1, h2, h3 {
+    color: rgb(255, 255, 255, 0.7);
+  font-family: 'Roboto Bold', sans-serif;
+}
+
+a, p {
+  font-family: 'Roboto Regular', sans-serif;
+}
+
+.main-login__page {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.main-login__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 19%;
+    left: 39%;
+    margin: auto;
+    padding: 55px 50px;
+    background-color: rgba(32, 32, 32, 0.8);
+    border-radius: 20px;
+}
+
+.login-heading {
+    margin-top: 28px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.logo-block {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    width: fit-content;
+    background: radial-gradient(ellipse farthest-corner at right top, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left bottom, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    border-radius: 16px;
+}
+
+.logo-block__text {
+    margin: 0;
+    color: #000;
+    font-size: 24px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-form__email {
+    margin-bottom: 15px;
+}
+
+.login-form__password {
+    margin-bottom: 10px;
+}
+
+.login-form__email,
+.login-form__password {
+    width: 100%;
+    padding-left: 11px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: 1px solid rgb(231, 231, 231, .8);
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Roboto Regular',serif;
+    border-radius: 3px;
+}
+
+.login-forgot {
+    text-align: right;
+    font-size: 14px;
+    color: rgb(255, 255, 255, .7);
+    transition: color .3s ease-in-out;
+}
+
+.login-forgot:hover {
+    color: #fff;
+}
+
+.login-button {
+    width: fit-content;
+    padding: 13px 40px;
+    margin-top: 32px;
+    font-family: 'Roboto Bold', serif;
+    margin-left: 29%;
+    color: rgba(255, 255, 255, 0.675);
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    transition-property: background-color, color;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+
+.login-button:hover {
+    background-color: #282828;
+    color: #fff;
+}
+
+.login-middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.login-middle__text {
+    margin: 0 3px;
+    color: rgba(255, 255, 255, 0.437);
+}
+
+.login-middle__line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.437);
+}
+
+.create-account__text,
+.create-account__link {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.create-account__text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.create-account__link {
+    margin-left: 3px;
+    transition: color .3s ease-in-out;
+}
+
+.create-account__link:hover {
+    color: #fff;
+}

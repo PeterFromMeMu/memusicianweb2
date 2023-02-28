@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/beats-style.css">
+    <link rel="stylesheet" href="css/choices.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/beats-style.css">
+    <link rel="stylesheet" href="css/upload-style.css">
+    <link rel="shortcut icon" href="img/vynil.png" type="image/x-icon">
+    <title>MeMusician | Upload A Beat</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- <div class="logo-block">
+                <h2 class="logo-block__text">MeMusician</h2>
+            </div> -->
+            <a class="header-logo__link" href="/index.html">
+                <img class="header-logo" src="img/logo-vynil.png" alt="">
+            </a>
+            <svg id="hamb" class="header-burger__icon" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0_429_11066)">
+                <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="rgba(255, 255, 255, .5)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                <clippath id="clip0_429_11066">
+                <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"/>
+                </clippath>
+                </defs>
+            </svg>
+            <div id="popup" class="header-right">
+                <a href="/webs/construction.html" class="header-right__favourite">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="26" height="17" viewBox="0 0 24 24">
+                        <path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"/>
+                    </svg>
+                    <p class="header-favourite__text">My Favourite</p>
+                </a>    
+                <svg class="header-right__add" fill="rgba(255, 255, 255, 0.55)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 45.402 45.402" style="enable-background:new 0 0 45.402 45.402;" xml:space="preserve">
+                    <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27c0,1.142,0.453,2.176,1.201,2.922c0.748,0.748,1.777,1.211,2.919,1.211c2.282,0,4.129-1.851,4.129-4.133V26.857h14.435c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z"/>
+                </svg>
+                <div class="header-right__addblock">
+                    <p class="addblock__heading">Post:</p>
+                    <ul class="addblock__list">
+                        <li class="addblock__item"><a href="/upload-beat.html">Beat</a></li>
+                        <li class="addblock__item"><a href="#">Studio</a></li>
+                        <li class="addblock__item"><a href="#">Colab</a></li>
+                        <li class="addblock__item"><a href="#">Mix &amp; Mast</a></li>
+                    </ul>
+                </div>
+                <div class="header-right__addblock-other">
+                    <p class="addblock__heading">Post:</p>
+                    <ul class="addblock__list">
+                        <li class="addblock__item"><a href="/upload-beat.html">Beat</a></li>
+                        <li class="addblock__item"><a href="#">Studio</a></li>
+                        <li class="addblock__item"><a href="#">Colab</a></li>
+                        <li class="addblock__item"><a href="#">Mix &amp; Mast</a></li>
+                    </ul>
+                </div>
+                <div class="main-user__block">
+                    <a href=""><div class="main-user__logo"></div></a>
+                    <div class="main-user__info">
+                        <a href="" class="main-user__name">Prototype01</a>
+                        <a href="" class="main-user__link" disabled>Log out</a>
+                    </div>
+                </div>
+                <svg id="close" class="burger-cancel" xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 32 32">
+
+                    <defs>
+                    
+                    <style>.cls-1{fill:none;stroke:rgba(255, 255, 255, .5);stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style>
+                    
+                    </defs>
+                    
+                    <title/>
+                    
+                    <g id="cross">
+                    
+                    <line class="cls-1" x1="7" x2="25" y1="7" y2="25"/>
+                    
+                    <line class="cls-1" x1="7" x2="25" y1="25" y2="7"/>
+                    
+                    </g>
+                    
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="upload">
+            <div class="container">
+                <h1 class="upload-heading">Upload A Beat</h1>
+                <div class="sub-container">
+                    <div class="uploading-and-name">
+                        <span class="upload-span__title">
+                            <label class="upload-subheading" for="#title">Enter The Title</label>
+                            <input id="title" type="text" placeholder="Beat title" class="upload-input__title">
+                        </span>
+                        <div class="upload-block__upload">
+                            <input class="upload-block__upload-text" placeholder="Upload File or Enter The File URL">
+                            <button href="" class="upload-block__upload-button">Upload A File</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="describe">
+            <div class="container">
+                <div class="sub-container">
+                    <h2 class="upload-subheading describe-heading">Describe Your Beat</h2>
+                    <div class="special-block-describe">
+                        <div class="beats-head__left">
+                            <select class="beats-head__select-genre js-choice" name="" id="choice1">
+                                <option value="" hidden>Genre</option>
+                                <option value="">Hip hop</option>
+                                <option value="">Rap</option>
+                                <option value="">Lofi</option>
+                                <option value="">Trap</option>
+                                <option value="">Jazz</option>
+                                <option value="">Underground</option>
+                                <option value="">Rock</option>
+                                <option value="">Club</option>
+                            </select>
+                            <select class="beats-head__select-vibe js-choice" name="" id="choice2">
+                                <option value="" hidden>Vibe</option>
+                                <option value="">Crazy</option>
+                                <option value="">Angry</option>
+                                <option value="">Soulful</option>
+                                <option value="">Happy</option>
+                                <option value="">Intense</option>
+                                <option value="">Anxious</option>
+                                <option value="">Grateful</option>
+                                <option value="">Inspiring</option>
+                                <option value="">Calm</option>
+                            </select>
+                            <select class="beats-head__select-instruments js-choice" name="" id="choice3">
+                                <option value="" hidden>Instruments</option>
+                                <option value="">Piano</option>
+                                <option value="">Violin</option>
+                                <option value="">Drums</option>
+                                <option value="">Electric guitar</option>
+                                <option value="">Cello</option>
+                                <option value="">Flute</option>
+                                <option value="">Saxophone</option>
+                                <option value="">Bass guitar</option>
+                                <option value="">Organ</option>
+                            </select>
+                            <div class="beats-head__block4">
+                                <p class="beats-head__price price-nav__btn" data-tab="#tab__first">Price</p>
+                                <div class="beats-price__block price__menu" id="tab__first">
+                                    <div class="beats-price__top">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <select class="beats-head__select-key js-choice" name="" id="choice4">
+                                <option value="" hidden>Key</option>
+                                <option value="">None</option>
+                                <option value="">Em</option>
+                                <option value="">Cm</option>
+                                <option value="">Dm</option>
+                                <option value="">Fm</option>
+                                <option value="">Am</option>
+                                <option value="">Gm</option>
+                                <option value="">Bm</option>
+                            </select>
+                            <div class="beats-head__block6">
+                                <p class="beats-head__bpm bpm-nav__btn" data-tab="#tab__second">BPM</p>
+                                <div class="beats-bpm__block bpm__menu" id="tab__second">
+                                    <div class="beats-bpm__top">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="image">
+            <div class="container">
+                <div class="sub-container">
+                    <h2 class="upload-subheading">Add An Image</h2>
+                    <div class="image-browse-block">
+                        <div class="image-cube">
+                            <svg class="image-cube__cross" fill="rgba(255, 255, 255, 0.7)" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 45.402 45.402" style="enable-background:new 0 0 45.402 45.402;" xml:space="preserve">
+                                <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27c0,1.142,0.453,2.176,1.201,2.922c0.748,0.748,1.777,1.211,2.919,1.211c2.282,0,4.129-1.851,4.129-4.133V26.857h14.435c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z"></path>
+                            </svg>
+                        </div>
+                        <button class="image-button">BROWSE FOR FILE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tags">
+            <div class="container">
+                <div class="sub-container">
+                    <span class="upload-span__title">
+                        <label class="upload-subheading" for="#tags">Add Couple Of Tags</label>
+                        <input id="tags" type="text" placeholder="Put # at the beginning of each tag" class="tags-input">
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="upload-footer">
+        <div class="container">
+            <button class="upload-footer__button">PUBLISH</button>
+        </div>
+    </footer>
+
+    <script src="js/choices.min.js"></script>
+    <script src="js/select.js"></script>
+    <script src="js/beats-price.js"></script>
+    <script src="js/beats-bpm.js"></script>
+    <script src="js/burger.js"></script>
+</body>
+</html>
